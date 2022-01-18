@@ -24,15 +24,22 @@ export default function Topbar() {
 
           {/* ICON #2 */}
           <div className="topbarIconContainer">
-            <NotificationsNone />
+            <Language />
             <span className="topIconBadge">2</span>
           </div>
 
           {/* ICON #3 */}
           <div className="topbarIconContainer">
-            <NotificationsNone />
+            <Settings />
             <span className="topIconBadge">+99</span>
           </div>
+
+          {/* ICON #4 */}
+          <img
+            src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+            alt=""
+            className="topAvatar"
+          />
         </div>
       </div>
     </div>
