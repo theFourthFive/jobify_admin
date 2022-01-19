@@ -5,6 +5,8 @@ import { userData } from "../../dummyData";
 
 import FeaturedInfo from "../../components/featuredInfo/FeaturedInfo";
 import Chart from "../../components/chart/Chart";
+import WidgetLarge from "../../components/widgetLarge/WidgetLarge";
+import WidgetSmall from "../../components/widgetSmall/WidgetSmall";
 
 export default function Home() {
   return (
@@ -16,6 +18,10 @@ export default function Home() {
         dataKey="Active Sales"
         grid
       />
+      <div className="homeWidgets">
+        <WidgetSmall />
+        <WidgetLarge />
+      </div>
     </div>
   );
 }
