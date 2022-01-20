@@ -46,19 +46,15 @@
   /* border: 1px solid black; */
 }
 
-/* .widgetLargeTableHeaderLeft {
-  border: 1px solid black;
-} */
-
-.widgetLargeTableMain {
+.widgetLargeTableHeaderLeft {
   text-align: left;
   /* border: 1px solid black; */
 }
 
-/* .widgetLargeTableHeader {
+.widgetLargeTableHeader {
   text-align: center;
-  border: 1px solid black;
-} */
+  /* border: 1px solid black; */
+}
 
 .widgetLargeCompany {
   display: flex;

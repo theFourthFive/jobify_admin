@@ -72,3 +72,105 @@ export const userData = [
     amt: 2100,
   },
 ];
+
+export const workerRows = [
+  {
+    id: 1,
+    fullName: "Jon Snow",
+    // lastName: "",
+    age: 35,
+    avatar:
+      "https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1085&q=80",
+    email: "snow.jon@google.com",
+    status: "active",
+    rating: "0",
+  },
+  {
+    id: 2,
+    fullName: "Cersei Lannister",
+    // lastName: "",
+    age: 42,
+    avatar:
+      "https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1085&q=80",
+    email: "lannister.cersei@google.com",
+    status: "active",
+    rating: "0",
+  },
+  {
+    id: 3,
+    fullName: "Jaime Lannister",
+    // lastName: "",
+    age: 45,
+    avatar:
+      "https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1085&q=80",
+    email: "lannister.jaime@google.com",
+    status: "active",
+    rating: "0",
+  },
+  {
+    id: 4,
+    fullName: "Arya Stark",
+    // lastName: "",
+    age: 16,
+    avatar:
+      "https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1085&q=80",
+    email: "stark.arya@google.com",
+    status: "active",
+    rating: "0",
+  },
+  {
+    id: 5,
+    fullName: "Daenerys Targaryen",
+    // lastName: "",
+    age: 23,
+    avatar:
+      "https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1085&q=80",
+    email: "targaryen.daenerys@google.com",
+    status: "active",
+    rating: "0",
+  },
+  {
+    id: 6,
+    fullName: "Melisandre Bond",
+    // lastName: "",
+    age: 150,
+    avatar:
+      "https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1085&q=80",
+    email: "melisandre.bond@google.com",
+    status: "active",
+    rating: "0",
+  },
+  {
+    id: 7,
+    fullName: "Ferrara Clifford",
+    // lastName: "",
+    age: 44,
+    avatar:
+      "https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1085&q=80",
+    email: "clifford.ferrara@google.com",
+    status: "active",
+    rating: "0",
+  },
+  {
+    id: 8,
+    fullName: "Rossini Frances",
+    // lastName: "",
+    age: 36,
+    avatar:
+      "https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1085&q=80",
+    email: "frances.rossini@google.com",
+    status: "active",
+    rating: "0",
+  },
+  {
+    id: 9,
+    fullName: "Harvey Roxie",
+    // lastName: "",
+    age: 65,
+    avatar:
+      "https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1085&q=80",
+    email: "roxie.harvey@google.com",
+    status: "active",
+    rating: "0",
+  },
+];

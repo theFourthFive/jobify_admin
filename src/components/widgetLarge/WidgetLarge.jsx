@@ -10,7 +10,7 @@ export default function WidgetLarge() {
       <h3 className="widgetLargeTitle">Latest Events</h3>
       <table className="widgetLargeTable">
         <tr className="widgetLargeTableRow">
-          <th className="widgetLargeTableMain">Company</th>
+          <th className="widgetLargeTableHeaderLeft">Company</th>
           <th className="widgetLargeTableHeader">City</th>
           <th className="widgetLargeTableHeader">Date</th>
           <th className="widgetLargeTableHeader">Amout</th>

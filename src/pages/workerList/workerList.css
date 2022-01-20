@@ -1,0 +1,60 @@
+.userList {
+  flex: 4;
+}
+
+.workerListElement {
+  display: flex;
+  align-items: center;
+}
+
+.workerListImage {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.workerListEdit {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #3bb077;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.workerListDelete {
+  color: red;
+  cursor: pointer;
+}
+
+.workerListBan {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #dd1616;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.workerListUnban {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #2196f3;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.workerListDelete {
+}
+.workerListTableCentered {
+  margin: auto;
+  display: block;
+  /* width: 80px; */
+  /* text-align: center; */
+}
