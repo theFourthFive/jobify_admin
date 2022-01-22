@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./widgetLarge.css";
 
 import axios from "axios";
+import moment from "moment";
 import workerFormater from "../../pages/workerList/utils/workerFormater";
 import companyFormater from "../../pages/companyList/utils/companyFormater";
 import eventFormater from "../../pages/eventList/utils/eventFormater";
@@ -50,7 +51,9 @@ export default function WidgetLarge() {
           <th className="widgetLargeCity">{event.location}</th>
           <th className="widgetLargeDate">{event.duration} days</th>
           <th className="widgetLargeAmount">{event.dailyPay} TND / day</th>
-          <th className="widgetLargeAmount">{event.createdAt}</th>
+          <th className="widgetLargeAmount">
+            {moment(event.createdAt).fromNow()}
+          </th>
         </tr>
       );
     })
