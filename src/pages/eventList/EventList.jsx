@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./workerList.css";
+import "./eventList.css";
 import axios from "axios";
 
 // importing the table template from:
@@ -7,22 +7,22 @@ import axios from "axios";
 import { DataGrid } from "@mui/x-data-grid";
 
 import { workerRows } from "../../dummyData";
-import workerFormater from "./utils/workerFormater";
+import eventFormater from "./utils/eventFormater";
 
 import getColumns from "./getColumns";
 
 // prettier-ignore
 export default function WorkerList() {
-  const [data, setData] = useState(workerRows);
+  const [data, setData] = useState([]);
 
   useEffect(() => {
     // because I got a warning in the console, to not use : useEffect(async ()=>{})
     (async () => {
       try {
 
-        const { data } = await axios.get("http://localhost:3001/admins/workers");
+        const { data } = await axios.get("http://localhost:3001/admins/events");
 
-        setData(data.map((worker) => workerFormater(worker)))
+        setData(data.map((company) => eventFormater(company)))
 
       } catch (error) {
         // console.log(error);
@@ -33,7 +33,7 @@ export default function WorkerList() {
   const columns = getColumns(data, setData)
 
   return (
-    <div className="userList">
+    <div className="companyList">
       <DataGrid
         rows={data}
         columns={columns}

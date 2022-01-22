@@ -1,15 +1,15 @@
-.worker {
-  flex: 4;
+.company {
+  flex: 6;
   padding: 20px;
 }
 
-.workerTitleContainer {
+.companyTitleContainer {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.workerAddButton {
+.companyAddButton {
   width: 80px;
   border: none;
   padding: 5px;
@@ -20,12 +20,12 @@
   font-size: 16px;
 }
 
-.workerContainer {
+.companyContainer {
   display: flex;
   margin-top: 20px;
 }
 
-.workerInfo {
+.companyInfo {
   flex: 1;
   padding: 20px;
 
@@ -33,7 +33,7 @@
   box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
 }
 
-.workerUpdate {
+.companyUpdate {
   flex: 2;
   padding: 20px;
 
@@ -42,98 +42,98 @@
   margin-left: 20px;
 }
 
-.workerInfoTop {
+.companyInfoTop {
   display: flex;
   align-items: center;
 }
 
-.workerInfoImage {
+.companyInfoImage {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   object-fit: cover;
 }
 
-.userInfoTopTitle {
+.companyInfoTopTitle {
   display: flex;
   flex-direction: column;
   margin-left: 12px;
 }
 
-.workerInfoWorkerFullname {
+.companyInfoWorkerFullname {
   font-weight: 600;
 }
 
-.workerInfoWorkerTitle {
+.companyInfoWorkerTitle {
   font-weight: 300;
 }
 
-.workerInfoBottom {
+.companyInfoBottom {
   margin-top: 20px;
 }
 
-.workerInfoTitle {
+.companyInfoTitle {
   font-size: 14px;
   font-weight: 600;
   color: rgb(175, 170, 170);
 }
 
-.workerInfoBottomDetail {
+.companyInfoBottomDetail {
   display: flex;
   align-items: center;
   margin: 20px 0px;
   color: #444;
 }
 
-.workerInfoIcon {
+.companyInfoIcon {
   font-size: 16px !important;
 }
 
-.workerInfoTitleDetails {
+.companyInfoTitleDetails {
   margin-left: 10px;
 }
 
-.workerUpdateTitle {
+.companyUpdateTitle {
   font-size: 24px;
   font-weight: 600;
 }
 
-.workerUpdateForm {
+.companyUpdateForm {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
 }
 
-.workerUpdateItem {
+.companyUpdateItem {
   display: flex;
   flex-direction: column;
   margin-top: 10px;
 }
 
-.workerUpdateItem > label {
+.companyUpdateItem > label {
   margin-bottom: 5px;
   font-size: 14px;
 }
 
-.workerUpdateInput {
+.companyUpdateInput {
   border: none;
   width: 250px;
   height: 30px;
   border-bottom: 1px solid gray;
 }
 
-.workerUpdateRight {
+.companyUpdateRight {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.workerUpdateUpload {
+.companyUpdateUpload {
   display: flex;
   align-items: center;
 }
 
-.workerUpdateImage {
+.companyUpdateImage {
   width: 100px;
   height: 100px;
   border-radius: 10px;
@@ -141,11 +141,11 @@
   margin-right: 20px;
 }
 
-.workerUpdateIcon {
+.companyUpdateIcon {
   cursor: pointer;
 }
 
-.workerUpdateButton {
+.companyUpdateButton {
   border-radius: 5px;
   border: none;
   padding: 5px;

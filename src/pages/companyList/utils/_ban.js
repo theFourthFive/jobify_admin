@@ -1,5 +1,5 @@
 import axios from "axios";
-import workerFormater from "./workerFormater";
+import companyFormater from "./companyFormater";
 
 // prettier-ignore
 export default async (id, state, setState) => {
@@ -14,12 +14,12 @@ export default async (id, state, setState) => {
 
   try {
     // Ban request from the server
-    let response = await axios.delete(`http://localhost:3001/admins/workers/${id}`)
+    let response = await axios.delete(`http://localhost:3001/admins/companies/${id}`)
 
     // Get the new Data from the server
-    const { data } = await axios.get("http://localhost:3001/admins/workers")
+    const { data } = await axios.get("http://localhost:3001/admins/companies")
 
-    setState(data.map((worker) => workerFormater(worker)))
+    setState(data.map((worker) => companyFormater(worker)))
 
   } catch (error) {
     console.log(error);

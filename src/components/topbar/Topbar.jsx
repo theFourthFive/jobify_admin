@@ -17,29 +17,29 @@ export default function Topbar() {
         {/* TOP RIGHT */}
         <div className="topRight">
           {/* ICON #1 */}
-          <div className="topbarIconContainer">
+          {/* <div className="topbarIconContainer">
             <NotificationsNone />
             <span className="topIconBadge">10</span>
-          </div>
+          </div> */}
 
           {/* ICON #2 */}
-          <div className="topbarIconContainer">
+          {/* <div className="topbarIconContainer">
             <Language />
             <span className="topIconBadge">2</span>
-          </div>
+          </div> */}
 
           {/* ICON #3 */}
-          <div className="topbarIconContainer">
+          {/* <div className="topbarIconContainer">
             <Settings />
             <span className="topIconBadge">+99</span>
-          </div>
+          </div> */}
 
           {/* ICON #4 */}
-          <img
+          {/* <img
             src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
             alt=""
             className="topAvatar"
-          />
+          /> */}
         </div>
       </div>
     </div>
