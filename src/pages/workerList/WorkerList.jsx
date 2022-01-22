@@ -13,7 +13,7 @@ import getColumns from "./getColumns";
 
 // prettier-ignore
 export default function WorkerList() {
-  const [data, setData] = useState(workerRows);
+  const [data, setData] = useState([]);
 
   useEffect(() => {
     // because I got a warning in the console, to not use : useEffect(async ()=>{})
