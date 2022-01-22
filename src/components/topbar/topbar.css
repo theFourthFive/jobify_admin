@@ -1,0 +1,58 @@
+.topbar {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+
+  position: sticky;
+  top: 0; /* make it sticky, starting from the position 0 */
+  z-index: 100;
+}
+.topbarWrapper {
+  height: 100%;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center; /* Justify within the parent div.topbar */
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 30px;
+  color: darkblue;
+  cursor: pointer;
+}
+
+.topRight {
+  display: flex;
+  align-items: center; /* Center all element inside this div, vertically */
+}
+
+.topbarIconContainer {
+  position: relative; /* becasue we are going to make the Icon badge with position absolute */
+  cursor: pointer;
+  margin-right: 10px;
+  color: #555; /* grey color instead of ugly black */
+}
+
+.topIconBadge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: red;
+  color: white;
+  border-radius: 50%; /* not circular, because we must specify width & heigh*/
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.topAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}

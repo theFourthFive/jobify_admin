@@ -1,0 +1,156 @@
+.company {
+  flex: 6;
+  padding: 20px;
+}
+
+.companyTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.companyAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: #3bb077;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.companyContainer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.companyInfo {
+  flex: 1;
+  padding: 20px;
+
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.companyUpdate {
+  flex: 2;
+  padding: 20px;
+
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  margin-left: 20px;
+}
+
+.companyInfoTop {
+  display: flex;
+  align-items: center;
+}
+
+.companyInfoImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.companyInfoTopTitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+}
+
+.companyInfoWorkerFullname {
+  font-weight: 600;
+}
+
+.companyInfoWorkerTitle {
+  font-weight: 300;
+}
+
+.companyInfoBottom {
+  margin-top: 20px;
+}
+
+.companyInfoTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(175, 170, 170);
+}
+
+.companyInfoBottomDetail {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  color: #444;
+}
+
+.companyInfoIcon {
+  font-size: 16px !important;
+}
+
+.companyInfoTitleDetails {
+  margin-left: 10px;
+}
+
+.companyUpdateTitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.companyUpdateForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.companyUpdateItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.companyUpdateItem > label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.companyUpdateInput {
+  border: none;
+  width: 250px;
+  height: 30px;
+  border-bottom: 1px solid gray;
+}
+
+.companyUpdateRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.companyUpdateUpload {
+  display: flex;
+  align-items: center;
+}
+
+.companyUpdateImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.companyUpdateIcon {
+  cursor: pointer;
+}
+
+.companyUpdateButton {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  background-color: darkblue;
+  color: white;
+  font-weight: 600;
+}
