@@ -21,7 +21,6 @@ export default function Sidebar() {
   const updateSideBar = () => {
     const activeMenu = localStorage.getItem("menu");
 
-    console.log("activeMenu: ", activeMenu);
     if (activeMenu === "home") {
       setActiveHome(() => {
         return "active";
