@@ -19,6 +19,8 @@ import "./event.css";
 import { Link } from "react-router-dom";
 
 export default function Worker() {
+  localStorage.setItem("menu", "events");
+
   return (
     <div className="company">
       <div className="companyTitleContainer">

@@ -26,6 +26,7 @@ import { Link } from "react-router-dom";
 export default function Worker() {
   const { workerId } = useParams();
   const [worker, setWorker] = useState([])
+  localStorage.setItem('menu', 'workers')
 
   useEffect(() => {
     // because I got a warning in the console, to not use : useEffect(async ()=>{})

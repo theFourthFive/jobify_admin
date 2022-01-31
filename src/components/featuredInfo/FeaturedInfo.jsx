@@ -3,6 +3,7 @@ import "./featuredInfo.css";
 
 import { ArrowDownward, ArrowUpward } from "@mui/icons-material";
 import axios from "axios";
+import moment from "moment";
 
 import workerFormater from "../../pages/workerList/utils/workerFormater";
 import companyFormater from "../../pages/companyList/utils/companyFormater";
@@ -20,6 +21,9 @@ export default function FeaturedInfo() {
 
         var { data } = await axios.get("http://localhost:3001/admins/workers");
         setWorkers(()=> data.map((worker) => workerFormater(worker)))
+        // workers.map((worker) => {
+        //   console.log("AAAAAA", moment(worker.createdAt).date());
+        // })
 
         var { data } = await axios.get("http://localhost:3001/admins/companies");
         setCompanies(()=> data.map((company) => companyFormater(company)))
