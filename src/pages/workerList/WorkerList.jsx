@@ -14,6 +14,7 @@ import getColumns from "./getColumns";
 // prettier-ignore
 export default function WorkerList() {
   const [data, setData] = useState([]);
+  localStorage.setItem('menu', 'workers')
 
   useEffect(() => {
     // because I got a warning in the console, to not use : useEffect(async ()=>{})

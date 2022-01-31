@@ -9,9 +9,10 @@ export default function workerFormater (worker) {
   if (lastName) fullName += " " + lastName;
 
   const email = worker.Email;
+  const rating = worker.avgRating
 
   const avatar = worker.imageUrl;
   const { phoneNumber, createdAt, updatedAt, status } = worker;
 
-  return { id, fullName, avatar, phoneNumber, createdAt, updatedAt, status, email };
+  return { id, fullName, avatar, phoneNumber, createdAt, updatedAt, status, email, rating };
 }

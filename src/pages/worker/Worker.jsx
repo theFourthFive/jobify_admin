@@ -26,6 +26,7 @@ import { Link } from "react-router-dom";
 export default function Worker() {
   const { workerId } = useParams();
   const [worker, setWorker] = useState([])
+  localStorage.setItem('menu', 'workers')
 
   useEffect(() => {
     // because I got a warning in the console, to not use : useEffect(async ()=>{})
@@ -48,7 +49,6 @@ export default function Worker() {
   if(worker.phoneNumber){
     formatedPhoneNumber = worker.phoneNumber.toString().slice(0,2) + " " + worker.phoneNumber.toString().slice(2,5) + " " + worker.phoneNumber.toString().slice(5)
   }
-  console.log(worker);
 
   return (
     <div className="worker">
@@ -84,7 +84,7 @@ export default function Worker() {
 
             <div className="workerInfoBottomDetail">
               <StarRate className="workerInfoIcon" />
-              <span className="workerInfoTitleDetails">{worker.rating ? workerFormater : 0}</span>
+              <span className="workerInfoTitleDetails">{worker.rating ? worker.rating : 0}</span>
             </div>
 
             <div className="workerInfoBottomDetail">
