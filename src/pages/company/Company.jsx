@@ -101,7 +101,7 @@ export default function Worker() {
             <div className="companyInfoBottomDetail">
               <MailOutline className="companyInfoIcon" />
               <span className="companyInfoTitleDetails">
-                john.doe@google.com
+                {company.email}
               </span>
             </div>
 

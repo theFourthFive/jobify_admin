@@ -22,12 +22,8 @@ export default function Sidebar() {
     const activeMenu = localStorage.getItem("menu");
 
     if (activeMenu === "home") {
-      setActiveHome(() => {
-        return "active";
-      });
-      setActiveWorkers(() => {
-        return "";
-      });
+      setActiveHome(() => "active");
+      setActiveWorkers(() => "");
       setActiveCompanies(() => "");
       setActiveEvents(() => "");
     } else if (activeMenu === "workers") {

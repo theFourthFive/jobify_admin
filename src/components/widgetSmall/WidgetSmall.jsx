@@ -35,21 +35,30 @@ export default function WidgetSmall() {
   }, [])
 
   const newWorkers = workers.map((worker) => {
+    console.log("AAAAAA",worker);
     return(
       <li className="widgetSmallListItem">
-            <img
-              src={worker.avatar}
-              alt=""
-              className="widgetSmallImage"
-            />
+            <a href={`/workers/${worker.id}`}>
+              <img
+                src={worker.avatar}
+                alt=""
+                className="widgetSmallImage"
+              />
+            </a>
             <div className="widgetSmallUser">
-              <span className="widgetSmallUsername">{worker.fullName}</span>
+              <span className="widgetSmallUsername">
+                <a href={`/workers/${worker.id}`}>
+                  {worker.fullName}
+                </a>
+              </span>
               <span className="widgetSmallUserTitle">{worker.email}</span>
             </div>
-            <button className="widgetSmallButton">
-              <Visibility className="widgetSmallIcon" />
-              Display
-            </button>
+            <a href={`/workers/${worker.id}`}>
+              <button className="widgetSmallButton">
+                <Visibility className="widgetSmallIcon" />
+                Display
+              </button>
+            </a>
           </li>
     )})
 
